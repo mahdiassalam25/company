@@ -7,6 +7,7 @@ export default function Home() {
     <Layout pageTitle="Home">
       <Image src="/profil.png" width={200} height={200} alt="p1" />
       <h1 className={styles['title-homepage']}>Haitoko</h1>
+      <h3>Sharing By Shopping</h3>
       <p>haitoko merupakan aplikasi belanja online untuk sembako, kebutuhan harian, buah, hingga frozen food.</p>
         <p>
         Pembeli cukup belanja dari rumah secara mudah dan cepat.</p>
@@ -15,7 +16,7 @@ export default function Home() {
       <p>Belanja kapan saja di haitoko lebih murah sehingga belanja jadi lebih hemat..</p>
       
       <Image src="/02.png" width={200} height={200} alt="p1" />
-      <h3>Promo Setiap Hari</h3>
+      <h3>Promo Setiap Harinya</h3>
       <p>Ada beragam promo dan diskon yang bisa dinikmati setiap hari. .</p>
       </Layout>
   );
